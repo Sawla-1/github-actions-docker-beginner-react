@@ -28,7 +28,7 @@ jobs:
 
       # Now do the same build, but inside Docker
       - name: Build Docker image
-        run: docker build -t my-react-site:test .
+        run docker build -t my-react-site:test .
 
       - name: Run container
         run: docker run -d -p 8080:80 --name my-react-site-test my-react-site:test
