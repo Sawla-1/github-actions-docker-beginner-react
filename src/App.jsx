@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [clicks, setClicks] = useState(0)
+  const [click, setClicks] = useState(0)
 
   return (
     <main className="card">
