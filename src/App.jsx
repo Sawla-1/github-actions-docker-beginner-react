@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 
-function App() {
-  const [click, setClicks] = useState(0)
+function App() 
+  const [click, setClicks] = useState(0);
 
   return (
     <main className="card">
